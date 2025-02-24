@@ -24,5 +24,5 @@ HEART_REACT: process.env.HEART_REACT || 'false',
     READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
     RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
     AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
-    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "false" : process.env.AUTO_SONG_SENDER
+    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "true" : process.env.AUTO_SONG_SENDER
 };
