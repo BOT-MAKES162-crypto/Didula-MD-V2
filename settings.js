@@ -23,6 +23,6 @@ HEART_REACT: process.env.HEART_REACT || 'false',
     ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
     READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
     RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
-    AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
+    AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
     AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "true" : process.env.AUTO_SONG_SENDER
 };
